@@ -1,0 +1,23 @@
+@media print {
+  body * {
+    visibility: hidden;
+  }
+
+  .bill-print,
+  .bill-print * {
+    visibility: visible;
+  }
+
+  .bill-print {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 300px; /* thermal width */
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  button {
+    display: none !important;
+  }
+}

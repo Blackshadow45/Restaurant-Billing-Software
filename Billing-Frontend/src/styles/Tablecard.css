@@ -1,0 +1,85 @@
+.table-card {
+  height: 130px;
+  border-radius: 16px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+  transition: all 0.2s ease;
+  position: relative;
+}
+
+.table-card:hover {
+  transform: translateY(-4px) scale(1.03);
+}
+
+/* Status colors */
+.table-card.free {
+  background: linear-gradient(135deg, #22c55e, #16a34a);
+}
+
+.table-card.busy {
+  background: linear-gradient(135deg, #ef4444, #dc2626);
+}
+
+/* Future merge color */
+.table-card.merged {
+  background: linear-gradient(135deg, #7c3aed, #5b21b6);
+}
+
+/* Icon */
+.table-icon {
+  font-size: 26px;
+  margin-bottom: 6px;
+}
+
+/* Status badge */
+.table-status {
+  margin-top: 6px;
+  font-size: 12px;
+  background: rgba(255,255,255,0.25);
+  padding: 4px 10px;
+  border-radius: 12px;
+}
+.table-card.merged {
+  background: linear-gradient(135deg, #6366f1, #4338ca); /* purple */
+  color: white;
+  border: 2px solid #312e81;
+}
+.table-action-btn {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  background: rgba(255,255,255,0.2);
+  border: none;
+  border-radius: 6px;
+  padding: 4px 6px;
+  cursor: pointer;
+  color: white;
+  font-size: 14px;
+}
+
+.table-action-btn:hover {
+  background: rgba(255,255,255,0.35);
+}
+.table-card h3 {
+  font-size: 18px;
+  margin: 4px 0;
+}
+
+.table-status {
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.kpi-card h3 {
+  font-size: 32px;
+  font-weight: 700;
+}
+.merge-btn {
+  background: #4f46e5; /* calmer */
+}
