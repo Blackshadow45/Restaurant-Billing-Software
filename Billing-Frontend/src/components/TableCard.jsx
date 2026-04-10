@@ -1,4 +1,4 @@
-import "../styles/TableCard.css";
+import "../styles/Tablecard.css";
 
 export default function TableCard({ table, onClick, onActionClick }) {
   return (
