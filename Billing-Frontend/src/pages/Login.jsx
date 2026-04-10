@@ -58,6 +58,12 @@ localStorage.setItem("restaurantName", name);
         />
 
         <button onClick={handleLogin}>Login</button>
+                <p>
+          Don't have an account? 
+          <span onClick={() => navigate("/register")}>
+            Register here
+          </span>
+        </p>
       </div>
     </div>
   );
